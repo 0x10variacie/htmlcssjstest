@@ -10,6 +10,14 @@ b = "Embracement";
 console.log(a, b);
 let c;
 c = false;
-console.log(c)
+console.log(c);
 
-document.getelementbyid("p1").innerHTML = "This is the script text."
+document.getelementbyid("p1").innerHTML = "This is the script text.";
+
+let accessname = window.prompt("Access password:")
+if (accessname = "admin"){
+  window.alert("Access granted!")
+}
+else{
+  window.alert("Access denied, but I'll still let you in :)"
+}
