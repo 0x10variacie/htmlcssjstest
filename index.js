@@ -32,4 +32,4 @@ document.getElementById("SomeButton").onclick = function() {
 }
 
 let textvolatile;
-setTimeout(5,function(textvolatile = document.getElementById("VolatileText").innerHTML = "I swear, there was some change!")
+setTimeout(5,function(textvolatile = document.getElementById("VolatileText").innerHTML = "I swear, there was some change!");
