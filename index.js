@@ -23,7 +23,7 @@ else{
 }
 
 let someprompt;
-document.getElementById("SomeButton").onlick = function()
+document.getElementById("SomeButton").onclick = function()
 {
   someprompt = document.getElementById("SomeText").value;
   window.alert("So what... you just said '" + "'.");
