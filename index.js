@@ -23,10 +23,13 @@ else{
 }
 
 let someprompt;
-document.getElementById("SomeButton").onclick = function(){
+document.getElementById("SomeButton").onclick = function() {
   
   someprompt = document.getElementById("SomeText").value;
   window.alert("So what... you just said '" + "'.");
   console.log("said: " + someprompt);
   document.getElementbyId("p1").innerHTML = someprompt;
 }
+
+let textvolatile;
+setTimeout(5,function(textvolatile = document.getElementById("VolatileText").innerHTML = "I swear, there was some change!")
