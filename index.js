@@ -12,12 +12,19 @@ let c;
 c = false;
 console.log(c);
 
-document.getelementbyid("p1").innerHTML = "This is the script text.";
+document.getElementById("p1").innerHTML = "This is the script text.";
 
-let accessname = window.prompt("Access password:")
+let accessname = window.prompt("Access password:");
 if (accessname = "admin"){
-  window.alert("Access granted!")
+  window.alert("Access granted!");
 }
 else{
-  window.alert("Access denied, but I'll still let you in :)"
+  window.alert("Access denied, but I'll still let you in :)");
+}
+
+let someprompt;
+document.getElementById("SomeButton").onlick = function(){
+  someprompt = document.getElementById("SomeText").value;
+  window.alert("So what... you just said '" + "'.");
+  console.log("said: " + someprompt);
 }
