@@ -1,3 +1,5 @@
+console.log("Script ch2.js is running.")
+
 let a;
 let b;
 let c;
