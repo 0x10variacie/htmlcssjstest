@@ -9,5 +9,5 @@ document.getElementById("cCalc").onClick = function(){
     b = Number(b);
     c = Math.sqrt(Math.pow(a,2) + Math.sqrt(Math.pow(b,2)))
     c = Number(c);
-    document.getElementById("cValue").innerHTML = c;
+    document.getElementById("cValue").innerHTML = "The hypothenuse is " + c;
 }
