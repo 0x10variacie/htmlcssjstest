@@ -8,5 +8,6 @@ document.getElementById("cCalc").onClick = function(){
     b = document.getElementById("bTBox").value; 
     b = Number(b);
     c = Math.sqrt(Math.pow(a,2) + Math.sqrt(Math.pow(b,2)))
+    c = Number(c);
     document.getElementById("cValue").innerHTML = c;
 }
