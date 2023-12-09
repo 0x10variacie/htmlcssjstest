@@ -2,7 +2,7 @@ console.log("Script ch3.js is running")
 
 let nameValue;
 let dateValue;
-const todayDate = new Date(year,month)
+const todayDate = new Date()
 let ageValue;
 
 
