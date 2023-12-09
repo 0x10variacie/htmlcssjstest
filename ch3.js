@@ -11,8 +11,5 @@ document.getElementById("Submission").onclick = function(){
     dateValue = document.getElementById("DateBox").value 
     ageValue = todayDate - dateValue
     ageValue = Number(ageValue)
-    document.getElementById("DataSet").innerHTML = {
-        "Thank you for completing the survey",
-        "Name: ",nameValue,
-        "Born on ",dateValue," (aged ",ageValue,")" 
+    document.getElementById("DataSet").innerHTML = "Thank you for completing the survey!","\nName: ",nameValue,"\nBorn on ",dateValue," (aged ",ageValue,")" 
 }
