@@ -25,7 +25,7 @@ else{
 let someprompt;
 document.getElementById("SomeButton").onclick = function() {
   
-  someprompt = document.getElementById("SomeText").value;
+  someprompt = document.getElementById("p1").value;
   window.alert("So what... you just said '" + "'.");
   console.log("said: " + someprompt);
   document.getElementbyId("p1").innerHTML = someprompt;
