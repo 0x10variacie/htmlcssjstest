@@ -2,12 +2,12 @@ let a;
 let b;
 let c;
 
-document.getElementById("cCalc").onClick = function(){
-    a = document.getElementById("aTBox").value; 
+document.getElementById("cCalc").onclick = function(){
+    var a = document.getElementById("aTBox").value; 
     a = Number(a);
-    b = document.getElementById("bTBox").value; 
+    var b = document.getElementById("bTBox").value; 
     b = Number(b);
-    c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2))
+    var c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
     c = Number(c);
-    document.getElementById("cValue").innerHTML = "The hypothenuse is " + c;
-}
+    document.getElementById("cValue").innerHTML = "The hypotenuse is " + c;
+};
