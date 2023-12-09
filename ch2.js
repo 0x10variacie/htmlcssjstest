@@ -7,7 +7,7 @@ document.getElementById("cCalc").onClick = function(){
     a = Number(a);
     b = document.getElementById("bTBox").value; 
     b = Number(b);
-    c = Math.sqrt(Math.pow(a,2) + Math.sqrt(Math.pow(b,2)))
+    c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2))
     c = Number(c);
     document.getElementById("cValue").innerHTML = "The hypothenuse is " + c;
 }
