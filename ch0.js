@@ -1,3 +1,4 @@
+console.log("Script ch0.js is running")
 console.log("The console is operating now.");
 
 let a;
