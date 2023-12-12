@@ -38,4 +38,9 @@ document.getElementById("DivideButton").onclick = function() {
         window.alert("I cannot divide by zero!");
         console.log("attempted to divide by zero")
     }
-};
+
+document.getElementById("ClearButton").onclick = function() {
+   firstval = 0;
+   secval = 0;
+   resval = 0;
+}
