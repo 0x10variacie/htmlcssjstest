@@ -41,7 +41,5 @@ document.getElementById("DivideButton").onclick = function() {
 }
 
 document.getElementById("ClearButton").onclick = function() {
-   document.getElementById("firstNumberValue").innerHTML = 0;
-   document.getElementById("secNumberValue").innerHTML = 0;
    document.getElementById("resultValue").innerHTML = 0;
 }
