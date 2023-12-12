@@ -4,14 +4,6 @@ let firstval;
 let secval;
 let resval;
 
-function capture() {
-    firstval = document.getElementById("FirstValue").value;
-    firstval = Number(firstval);
-    secval = document.getElementById("SecValue").value;
-    secval = Number(secval);
-    console.log("Captured: ", firstval, ",", secval);
-}
-
 document.getElementById("PlusButton").onclick = function() {
     capture();
     resval = Number(firstval + secval);
@@ -39,3 +31,11 @@ document.getElementById("DivideButton").onclick = function() {
         window.alert("I cannot divide by zero!");
     }
 };
+
+function capture() {
+    firstval = document.getElementById("FirstValue").value;
+    firstval = Number(firstval);
+    secval = document.getElementById("SecValue").value;
+    secval = Number(secval);
+    console.log("Captured: ", firstval, ",", secval);
+}
