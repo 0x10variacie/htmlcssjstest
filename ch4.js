@@ -43,4 +43,5 @@ document.getElementById("DivideButton").onclick = function() {
 document.getElementById("ClearButton").onclick = function() {
    firstval = 0;
    secval = 0;
-   resval = 0; }
+   resval = 0;
+}
