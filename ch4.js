@@ -7,7 +7,7 @@ function capture() {
     var firstval = document.getElementById("FirstValue").value
     firstval = Number(firstval)
     var secval = document.getElementById("SecValue").value
-    firstval = Number(secval)
+    secval = Number(secval)
     console.log("Captured: ",firstval,",",secval)
 }
 
