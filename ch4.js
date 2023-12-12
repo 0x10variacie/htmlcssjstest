@@ -42,4 +42,5 @@ document.getElementById("DivideButton").onclick = function() {
 
 document.getElementById("ClearButton").onclick = function() {
    document.getElementById("resultValue").innerHTML = 0;
+   console.log("result value cleared")
 }
