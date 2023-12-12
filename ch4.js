@@ -10,16 +10,16 @@ document.getElementById("PlusButton").onclick = function() {
 
 document.getElementById("MinusButton").onclick = function() {
     var resval = firstval - secval;
-    var resval = document.getElementById("ResultValue").innerHTML = String(resval);
+    var resval = document.getElementById("ResultValue").innerHTML = resval;
 }
 
 document.getElementById("MultiButton").onclick = function() {
     var resval = firstval * secval;
-    var resval = document.getElementById("ResultValue").innerHTML = String(resval);
+    var resval = document.getElementById("ResultValue").innerHTML = resval;
 }
 
 document.getElementById("DivideButton").onclick = function() {
     if (secval != 0) {
         var resval = firstval / secval;
-        var resval = document.getElementById("ResultValue").innerHTML = String(resval);} else {window.alert("I cannot divide by zero!")}
+        var resval = document.getElementById("ResultValue").innerHTML = resval;} else {window.alert("I cannot divide by zero!")}
 }
