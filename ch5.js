@@ -1,6 +1,6 @@
 console.log("js initialized")
 
-var dropdown = getElementById("DropDown")
+var dropdown = document.getElementById("DropDown")
 dropdown_Option = dropdown.options[dropdown.selectedIndex]
 
 document.getElementById("But1").value = function () {
