@@ -1,5 +1,8 @@
 console.log("js initialized")
 
+var dropdown = getElementById("DropDown")
+dropdown_Option = dropdown.options[dropdown.selectedIndex]
+
 document.getElementById("But1").value = function () {
     console.log("button 1 clicked");
     window.alert("1");
