@@ -7,6 +7,6 @@ document.getElementById("PlayButton").onclick = function() {
     AudioChosen = document.getElementById("PickButton").value;
     audioChosen = URL.createObjectURL(selectedFile);
     document.getElementById("audioPlayer").src = audioChosen;
-    document.getElementById("audioPlayer").style.display = "block";
+    document.getElementById("audioPlayer").style.display = "none";
 }
 
