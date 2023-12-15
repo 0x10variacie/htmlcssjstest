@@ -9,10 +9,26 @@
 <body style="background-color: rgb(168, 25, 129)">
     <h1 style="color: snow">Sound Remote</h1>
     <div>
-        <audio id="audioPlayer" controls style="display: none;"></audio></audio>
+        <audio id="audioPlayer" controls style="display: none;">
+            <source type="audio/mpeg">
+            <source type="audio/wav">
+            Not supported!
+        </audio>
         <input type="file" id="PickButton"><br>
-        <button type="button" id="PlayButton">Play</button><br>
-        <script src="ch6.js"></script>
+        <button type="button" id="PlayButton" onclick="SoundPlay()">Play</button>
+        <button type="button" id="PauseButton" onclick="SoundPause()">Pause</button><br>
+        <script>
+            var audiochosen = document.getElementById("PickButton")
+            URL.createObjectURL(audiochosen);
+
+            function SoundPlay() {
+                audiochosen.play();
+            }
+
+            function SoundPause() {
+                audiochosen.pause();
+            }
+        </script>
     </div>
 </body>
 <footer>
